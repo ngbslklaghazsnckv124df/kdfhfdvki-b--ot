@@ -19,7 +19,7 @@ module.exports.run = async (client) => {
     opts = {
         part: 'snippet',
         maxResults: 10,
-        key: 'AIzaSyBfoLNsvoxoaGuEcfe9ZEmMniatbdTdAQk'
+        key: process.env.youtube_api_key
     }
     var intent;
     function getQueue(guild) {
