@@ -48,4 +48,4 @@ client.user.setGame(`${prefix}help | Ban & Kick in dev.`, "https://twitch.tv/fla
     })
 
 
-client.login(config.token);
+client.login(process.env.TOKEN);
