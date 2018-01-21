@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 function eval(message, client, prefix) {
   
-/*  let args = message.content.split(" ").slice(1).join(' ');
+  let args = message.content.split(" ").slice(1);
 
   if (message.content.startsWith(prefix + "eval")) {
   var embed = new Discord.RichEmbed()
@@ -51,7 +51,7 @@ else
     .addField("Output: :outbox_tray:", `\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``)
     message.channel.send({embed: embed3 });
   }
-  }*/
+  }
 }
 
 module.exports = eval;
