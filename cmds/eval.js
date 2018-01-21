@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 function eval(message, client, prefix) {
 
   if (message.content.startsWith(prefix + "eval")) {
