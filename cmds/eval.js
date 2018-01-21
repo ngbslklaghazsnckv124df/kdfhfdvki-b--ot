@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 function eval(message, client, prefix) {
   
-  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  let args = message.content.split(" ").slice(1).join(' ');
 
   if (message.content.startsWith(prefix + "eval")) {
   var embed = new Discord.RichEmbed()
