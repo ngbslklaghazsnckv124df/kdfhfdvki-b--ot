@@ -6,7 +6,7 @@ client.on('guildMemberAdd', member =>{
 
     const channel = client.channels.get('391552734459068416');
 
-    channel.send(`Bienvenue **<@${member.user.id}>** sur **Faelwen**, nous te souhaitons un agréable moment sur le serveur!\nTu peut allé lire le régelement dans <#391612376543395850> ! :ok_hand:`)
+    channel.send(`Bienvenu(e) **<@${member.user.id}>** sur **Faelwen**, nous te souhaitons un agréable moment sur le serveur!\nTu peut aller lire le réglement dans <#391612376543395850> ! :ok_hand:`)
 
     jimp.read("https://cdn.discordapp.com/avatars/"+ member.user.id +"/"+ member.user.avatar +".png").then(function(avatar){
         
